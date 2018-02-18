@@ -1,2 +1,3 @@
 [[plugins]]
 repo = 'scrooloose/nerdtree'
+hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/nerdtree.vim'

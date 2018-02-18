@@ -61,6 +61,3 @@ source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
 
 filetype plugin indent on
 syntax enable
-
-" === NERDTree ===
-map <C-e> :NERDTreeToggle<CR>

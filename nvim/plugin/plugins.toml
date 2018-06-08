@@ -1,3 +1,17 @@
+# dein.nvim
+[[plugins]]
+repo = 'Shougo/dein.vim'
+hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/deoplete.nvim.vim'
+
+# deoplete.nvim
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+
+# nerdtree
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/nerdtree.vim'
+
+# vim-airline
+[[plugins]]
+repo = 'vim-airline/vim-airline'

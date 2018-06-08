@@ -1,3 +1,4 @@
+
 " === set options ===
 set autoread
 set confirm
@@ -33,11 +34,7 @@ let dic_line =  { 'dos': 'CRLF', 'unix': 'CR', 'mac': 'LF' }
 let f = &fileformat
 let s = has_key(dic_line, f) ? dic_line[f] : 'unkwown'
 set statusline=%t\ %m%r%h%w[%Y][%{&fenc}][%{s}]%=%c,%l%11p%%
-set t_Co=256
-" set term=screen-256color-bce
-" colorscheme solarized
-" let g:solarized_termtrans=256
-" set background=dark
+
 
 set clipboard=unnamed,unnamedplus
 set mouse=a
@@ -55,9 +52,10 @@ set history=50
 " === key mappings ===
 nnoremap <silent><ESC><ESC> :noh<CR>
 
-
 " === dein.vim ===
 source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
 
-filetype plugin indent on
-syntax enable
+" == color scheme ===
+" set termguicolors
+" set t_Co=256
+colorscheme desert

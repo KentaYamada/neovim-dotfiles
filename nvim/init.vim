@@ -59,3 +59,9 @@ source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
 " set termguicolors
 " set t_Co=256
 colorscheme desert
+
+" === auto commands ===
+augroup tscmd
+    autocmd!
+    autocmd BufNewFile,BufRead *.ts set filetype=typescript
+augroup END

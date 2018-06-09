@@ -33,7 +33,6 @@ depends = [
     'shabadou',
 ]
 
-
 # nerdtree
 [[plugins]]
 repo = 'scrooloose/nerdtree'
@@ -43,3 +42,6 @@ hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/nerdtree.vim'
 [[plugins]]
 repo = 'vim-airline/vim-airline'
 
+# taglist.vim
+[[plugins]]
+repo = 'vim-scripts/taglist.vim'

@@ -7,6 +7,33 @@ hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/deoplete.nvim.vim'
 [[plugins]]
 repo = 'Shougo/deoplete.nvim'
 
+# vimproc
+[[plugins]]
+repo = 'Shougo/vimproc'
+build = 'make'
+
+# vim-quickrun
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+# quickfixstatus
+[[plugins]]
+repo = 'dannyob/quickfixstatus'
+
+# shabadou.vim
+[[plugins]]
+repo = 'osyo-manga/shabadou.vim'
+
+# vim-watchdogs
+[[plugins]]
+repo = 'osyo-manga/vim-watchdogs'
+depends = [
+    'vim-quickrun',
+    'vimproc',
+    'shabadou',
+]
+
+
 # nerdtree
 [[plugins]]
 repo = 'scrooloose/nerdtree'
@@ -15,3 +42,4 @@ hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/nerdtree.vim'
 # vim-airline
 [[plugins]]
 repo = 'vim-airline/vim-airline'
+

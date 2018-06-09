@@ -19,8 +19,9 @@ let g:dein#enable_notification = 1
 if dein#load_state(s:dein_dir)
     call dein#begin(s:dein_dir)
 
+    " todo: nvimより親のパスを環境変数化
     call dein#load_toml('~/git/neovim-dotfiles/nvim/plugin/plugins.toml', {'lazy': 0})
-    call dein#load_toml('~/git/neovim-dotfiles/nvim/plugin/plugins-lazy.toml', {'lazy':1})
+    call dein#load_toml('~/git/neovim-dotfiles/nvim/plugin/plugins-lazy.toml', {'lazy': 1})
 
     call dein#end()
     call dein#save_state()

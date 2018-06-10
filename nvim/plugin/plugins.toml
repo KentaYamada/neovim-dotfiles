@@ -38,10 +38,16 @@ depends = [
 repo = 'scrooloose/nerdtree'
 hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/nerdtree.vim'
 
+# tagbar.vim
+[[plugins]]
+repo = 'majutsushi/tagbar'
+
 # vim-airline
 [[plugins]]
 repo = 'vim-airline/vim-airline'
+depends =['tagbar']
 
-# taglist.vim
+# vim-airline-themes
 [[plugins]]
-repo = 'vim-scripts/taglist.vim'
+repo = 'vim-airline/vim-airline-themes'
+depends = ['vim-airline']

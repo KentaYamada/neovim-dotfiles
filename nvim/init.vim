@@ -63,5 +63,5 @@ colorscheme desert
 " === auto commands ===
 augroup tscmd
     autocmd!
-    autocmd BufNewFile,BufRead *.ts set filetype=typescript
+    autocmd BufNewFile,BufRead *.ts setfiletype typescript
 augroup END

@@ -56,9 +56,13 @@ nnoremap <silent><ESC><ESC> :noh<CR>
 source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
 
 " == color scheme ===
-" set termguicolors
-" set t_Co=256
-colorscheme desert
+" if has('termguicolors')
+"     set termguicolors
+" endif
+"set t_Co=256
+" colorscheme desert
+colorscheme tender
+let g:airline_theme = 'tender'
 
 " === auto commands ===
 augroup tscmd

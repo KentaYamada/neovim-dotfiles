@@ -55,3 +55,7 @@ depends = ['vim-airline']
 # tender.vim (colorscheme)
 [[plugins]]
 repo = 'jacoborus/tender.vim'
+
+# vim-devicons
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'

@@ -14,7 +14,7 @@ set ignorecase
 set incsearch
 set smartcase
 set wrapscan
-set encoding=utf-8
+set encoding=UTF-8
 set fileencoding=utf-8
 set fileencodings+=utf-8,euc-jp,cp932,iso-2022-jp
 set autoindent
@@ -55,6 +55,7 @@ nnoremap <silent><ESC><ESC> :noh<CR>
 " === dein.vim ===
 source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
 
+" call map(dein#check_clean(), "delete(v:val, 'rf')")
 " == color scheme ===
 " if has('termguicolors')
 "     set termguicolors

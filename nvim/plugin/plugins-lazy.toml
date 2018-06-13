@@ -8,3 +8,8 @@ build = './install.sh'
 [[plugins]]
 repo = 'leafgarland/typescript-vim'
 on_ft  = 'typescript'
+
+# phphcd.vim
+[[plugins]]
+repo = 'lvht/phpcd.vim'
+on_ft = 'php'

@@ -60,8 +60,7 @@ source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
 " if has('termguicolors')
 "     set termguicolors
 " endif
-"set t_Co=256
-" colorscheme desert
+set t_Co=256
 colorscheme tender
 let g:airline_theme = 'tender'
 

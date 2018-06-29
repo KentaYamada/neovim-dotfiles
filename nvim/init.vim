@@ -64,6 +64,10 @@ set t_Co=256
 colorscheme tender
 let g:airline_theme = 'tender'
 
+" === key mappings ===
+" ESCでターミナルモードからノーマルモードへ
+tnoremap <ESC> <C-\><C-n>
+
 " === auto commands ===
 augroup tscmd
     autocmd!

@@ -63,3 +63,7 @@ depends = ['vim-airline']
 # tender.vim (colorscheme)
 [[plugins]]
 repo = 'jacoborus/tender.vim'
+
+# vim-fugitive
+[[plugins]]
+repo = 'tpope/vim-fugitive'

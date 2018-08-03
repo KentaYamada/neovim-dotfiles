@@ -3,6 +3,7 @@
 repo = 'mhartington/nvim-typescript'
 on_ft  = 'typescript'
 build = './install'
+hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/nvim-typescript.vim'
 
 # typescript-vim
 [[plugins]]

@@ -2,7 +2,7 @@
 [[plugins]]
 repo = 'davidhalter/jedi-vim'
 on_ft = 'python'
-hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/jedi-vim.vim'
+hook_add = 'source ~/.config/nvim/plugin/jedi-vim.vim'
 
 # deoplete-jedi
 [[plugins]]
@@ -18,7 +18,7 @@ depends = [
 repo = 'mhartington/nvim-typescript'
 on_ft  = 'typescript'
 build = './install'
-hook_add = 'source ~/git/neovim-dotfiles/nvim/plugin/nvim-typescript.vim'
+hook_add = 'source ~/.config/nvim/plugin/nvim-typescript.vim'
 
 # typescript-vim
 [[plugins]]

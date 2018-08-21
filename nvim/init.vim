@@ -53,9 +53,9 @@ set history=50
 nnoremap <silent><ESC><ESC> :noh<CR>
 
 " === dein.vim ===
-source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
+" source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
+source $HOME/.config/nvim/plugin/dein.rc.vim
 
-" call map(dein#check_clean(), "delete(v:val, 'rf')")
 " == color scheme ===
 " if has('termguicolors')
 "     set termguicolors

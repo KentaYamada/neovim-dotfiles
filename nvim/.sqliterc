@@ -1,0 +1,4 @@
+.header on
+.mode column
+.width 0
+.nullvalue NULL

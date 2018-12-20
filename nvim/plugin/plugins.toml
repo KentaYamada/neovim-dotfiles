@@ -2,6 +2,7 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
+# denite.nvim
 [[plugins]]
 repo = 'Shougo/denite.nvim'
 hook_add = 'source ~/.config/nvim/plugin/denite.nvim.vim'
@@ -70,6 +71,13 @@ depends = ['vim-airline']
 [[plugins]]
 repo = 'jacoborus/tender.vim'
 
+# badwolf(colorscheme)
+[[plugins]]
+repo = 'sjl/badwolf'
+
 # vim-fugitive
 [[plugins]]
 repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'

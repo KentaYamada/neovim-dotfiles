@@ -2,8 +2,16 @@
 " ale.rc.vim
 " My ALE config
 " Author: Kenta Yamada
-" Repo: https://github.com/KentaYamada/neovim-dotfiles
+" My Repo: https://github.com/KentaYamada/neovim-dotfiles
+" Plugin Repo: https://github.com/w0rp/ale
 "
+
+" ファイルタイプ別linter設定
+" デフォルトはALEリポジトリのREADME.md参照
+let g:ale_linters = {
+    \ 'php': ['php'],
+    \ 'python': ['flake8']
+\ }
 
 " ファイルオープン時にチェックが走らないようにする
 let g:ale_lint_on_enter = 0

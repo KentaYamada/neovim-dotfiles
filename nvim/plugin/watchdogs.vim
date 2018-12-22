@@ -38,4 +38,4 @@ let g:quickrun_config = {
 let g:watchdogs_check_BufWritePost_enable_on_wq = 0
 
 " 設定反映
-call watchdogs#setup(g:quickrun_config)
+" call watchdogs#setup(g:quickrun_config)

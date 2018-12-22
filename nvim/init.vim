@@ -53,13 +53,9 @@ set history=50
 nnoremap <silent><ESC><ESC> :noh<CR>
 
 " === dein.vim ===
-" source ~/git/neovim-dotfiles/nvim/plugin/dein.rc.vim
 source $HOME/.config/nvim/plugin/dein.rc.vim
 
 " == color scheme ===
-" if has('termguicolors')
-"     set termguicolors
-" endif
 set t_Co=256
 colorscheme tender
 let g:airline_theme = 'tender'

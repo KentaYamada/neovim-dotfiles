@@ -20,3 +20,9 @@ let g:tagbar_type_typescript = {
   \ ],
   \ 'sort' : 0
 \ }
+
+" tag bar width
+let g:tagbar_width = 30
+
+" enable highlight tag
+let g:tagbar_autoshowtag = 1

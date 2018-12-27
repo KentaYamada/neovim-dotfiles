@@ -35,6 +35,8 @@ let f = &fileformat
 let s = has_key(dic_line, f) ? dic_line[f] : 'unkwown'
 set statusline=%t\ %m%r%h%w[%Y][%{&fenc}][%{s}]%=%c,%l%11p%%
 
+" enable python3
+let g:python3_host_prog = expand('/usr/local/bin/python3')
 
 set clipboard=unnamed,unnamedplus
 set mouse=a
@@ -56,9 +58,9 @@ nnoremap <silent><ESC><ESC> :noh<CR>
 source $HOME/.config/nvim/plugin/dein.rc.vim
 
 " == color scheme ===
+set termguicolors
 set t_Co=256
-colorscheme tender
-let g:airline_theme = 'tender'
+colorscheme snazzy
 
 " === key mappings ===
 " ESCでターミナルモードからノーマルモードへ
@@ -68,4 +70,9 @@ tnoremap <ESC> <C-\><C-n>
 augroup tscmd
     autocmd!
     autocmd BufNewFile,BufRead *.ts setfiletype typescript
+augroup END
+
+augroup CakePhpCmd
+    autocmd!
+    autocmd BufNewFile,BufRead *.ctp setfiletype html
 augroup END

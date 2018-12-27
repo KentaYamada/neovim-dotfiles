@@ -52,9 +52,9 @@ depends = ['vim-airline']
 [[plugins]]
 repo = 'jacoborus/tender.vim'
 
-# badwolf(colorscheme)
+# snazzy(colorscheme)
 [[plugins]]
-repo = 'sjl/badwolf'
+repo = 'connorholyday/vim-snazzy'
 
 # vim-fugitive
 [[plugins]]

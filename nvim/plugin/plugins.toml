@@ -53,8 +53,12 @@ depends = ['vim-airline']
 repo = 'jacoborus/tender.vim'
 
 # snazzy(colorscheme)
+# [[plugins]]
+# repo = 'connorholyday/vim-snazzy'
+
+# srcery-vim
 [[plugins]]
-repo = 'connorholyday/vim-snazzy'
+repo = 'srcery-colors/srcery-vim'
 
 # vim-fugitive
 [[plugins]]

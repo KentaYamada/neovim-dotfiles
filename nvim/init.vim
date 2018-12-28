@@ -58,9 +58,10 @@ nnoremap <silent><ESC><ESC> :noh<CR>
 source $HOME/.config/nvim/plugin/dein.rc.vim
 
 " == color scheme ===
-set termguicolors
+colorscheme srcery
+syntax on
+" set termguicolors
 set t_Co=256
-colorscheme snazzy
 
 " === key mappings ===
 " ESCでターミナルモードからノーマルモードへ

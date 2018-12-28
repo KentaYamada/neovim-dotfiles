@@ -67,6 +67,12 @@ set t_Co=256
 " ESCでターミナルモードからノーマルモードへ
 tnoremap <ESC> <C-\><C-n>
 
+" ctagsのキーマップ
+if executable('ctags')
+    " 複数候補が選択できるようにする
+    nnoremap <C-]> g<C-]>
+endif
+
 " === auto commands ===
 augroup tscmd
     autocmd!

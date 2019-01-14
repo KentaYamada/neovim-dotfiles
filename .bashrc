@@ -16,12 +16,12 @@ alias usl='unlink'
 # todo: function
 case "${OSTYPE}" in
     darwin*)
-        alias ls='ls -lG'
-        alias la='ls -laG'
+        alias ls='ls -lFG'
+        alias la='ls -alFG'
         ;;
     linux*)
-        alias ls='ls -l --color=auto'
-        alias la='ls -al --color=auto'
+        alias ls='ls -lF --color=auto'
+        alias la='ls -alF --color=auto'
         ;;
 esac
 

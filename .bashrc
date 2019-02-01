@@ -28,6 +28,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias sl='ln -s'
 alias usl='unlink'
+alias ~='cd ~'
 
 # todo: function
 case "${OSTYPE}" in

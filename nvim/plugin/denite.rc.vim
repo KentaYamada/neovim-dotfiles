@@ -8,3 +8,10 @@ if executable('rg')
     call denite#custom#var('grep', 'separator', ['--'])
     call denite#custom#var('grep', 'final_opts', [])
 endif
+
+" key mapping
+nnoremap [denite] <Nop>
+nmap <Space>d [denite]
+
+nnoremap <silent> [denite]f :<C-u> Denite -auto-preview file_rec<CR>
+nnoremap <silent> [denite]g :<C-u> Denite grep<CR>

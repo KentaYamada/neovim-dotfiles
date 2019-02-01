@@ -5,7 +5,7 @@ repo = 'Shougo/dein.vim'
 # denite.nvim
 [[plugins]]
 repo = 'Shougo/denite.nvim'
-hook_add = 'source ~/.config/nvim/plugin/denite.nvim.vim'
+hook_add = 'source ~/.config/nvim/plugin/denite.rc.vim'
 
 # deoplete.nvim
 [[plugins]]

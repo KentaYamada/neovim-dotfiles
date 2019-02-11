@@ -51,19 +51,24 @@ set shellslash
 set wildmenu wildmode=list:longest,full
 set history=50
 
-" === key mappings ===
-nnoremap <silent><ESC><ESC> :noh<CR>
-
 " === dein.vim ===
 source $HOME/.config/nvim/plugin/dein.rc.vim
 
 " == color scheme ===
-colorscheme srcery
+colorscheme NeoSolarized
+set background=dark
 syntax on
-" set termguicolors
-set t_Co=256
 
 " === key mappings ===
+nnoremap <silent><ESC><ESC> :noh<CR>
+
+" タブ操作
+nnoremap tnw :<C-u>tabnew<CR>
+nnoremap tc :<C-u>tabclose<CR>
+nnoremap tn gt
+nnoremap tp gT
+
+" === terminal mode ===
 " ESCでターミナルモードからノーマルモードへ
 tnoremap <ESC> <C-\><C-n>
 

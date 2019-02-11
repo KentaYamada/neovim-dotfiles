@@ -14,16 +14,16 @@ depends = [
 ]
 
 # nvim-typescript
-#[[plugins]]
-#repo = 'mhartington/nvim-typescript'
-#on_ft  = 'typescript'
-#build = './install'
-#hook_add = 'source ~/.config/nvim/plugin/nvim-typescript.vim'
+# [[plugins]]
+# repo = 'mhartington/nvim-typescript'
+# on_ft  = 'typescript'
+# build = './install.sh'
+# hook_add = 'source ~/.config/nvim/plugin/nvim-typescript.vim'
 
 # typescript-vim
-#[[plugins]]
-#repo = 'leafgarland/typescript-vim'
-#on_ft  = 'typescript'
+[[plugins]]
+repo = 'leafgarland/typescript-vim'
+on_ft  = 'typescript'
 
 # phphcd.vim
 # [[plugins]]

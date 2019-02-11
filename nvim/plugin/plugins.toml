@@ -48,17 +48,8 @@ depends =['tagbar']
 repo = 'vim-airline/vim-airline-themes'
 depends = ['vim-airline']
 
-# tender.vim (colorscheme)
-[[plugins]]
-repo = 'jacoborus/tender.vim'
-
-# snazzy(colorscheme)
-# [[plugins]]
-# repo = 'connorholyday/vim-snazzy'
-
-# srcery-vim
-[[plugins]]
-repo = 'srcery-colors/srcery-vim'
+# solarized (colorscheme)
+repo = 'icymind/NeoSolarized'
 
 # vim-fugitive
 [[plugins]]

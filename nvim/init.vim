@@ -74,6 +74,7 @@ tnoremap <ESC> <C-\><C-n>
 
 " ctagsのキーマップ
 if executable('ctags')
+    set tags=./.git/tags,./tags
     " 複数候補が選択できるようにする
     nnoremap <C-]> g<C-]>
 endif

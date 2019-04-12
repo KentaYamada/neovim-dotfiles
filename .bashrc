@@ -58,5 +58,7 @@ alias gst='git stash'
 alias gstl='git stash list'
 
 # python command
-alias py='python3 -B'
+alias py3='python3 -B'
 
+# ctags (mac)
+alias ctags="`brew --prefix`/bin/ctags"

@@ -51,6 +51,9 @@ depends = ['vim-airline']
 # solarized (colorscheme)
 repo = 'icymind/NeoSolarized'
 
+# monokai (colorscheme)
+repo = 'tomasr/molokai'
+
 # vim-fugitive
 [[plugins]]
 repo = 'tpope/vim-fugitive'

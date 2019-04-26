@@ -55,8 +55,10 @@ set history=50
 source $HOME/.config/nvim/plugin/dein.rc.vim
 
 " == color scheme ===
-colorscheme NeoSolarized
-set background=dark
+" colorscheme NeoSolarized
+" set background=dark
+colorscheme molokai
+let g:molokai_original=1
 syntax on
 
 " === key mappings ===

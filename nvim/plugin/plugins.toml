@@ -54,6 +54,9 @@ repo = 'icymind/NeoSolarized'
 # monokai (colorscheme)
 repo = 'tomasr/molokai'
 
+# monokai
+repo = 'phanviet/vim-monokai-pro'
+
 # vim-fugitive
 [[plugins]]
 repo = 'tpope/vim-fugitive'

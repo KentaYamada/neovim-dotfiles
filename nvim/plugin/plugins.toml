@@ -42,6 +42,7 @@ repo = 'majutsushi/tagbar'
 [[plugins]]
 repo = 'vim-airline/vim-airline'
 depends =['tagbar']
+hook_add = 'source ~/.config/nvim/plugin/arline.rc.vim'
 
 # vim-airline-themes
 [[plugins]]
@@ -50,9 +51,6 @@ depends = ['vim-airline']
 
 # solarized (colorscheme)
 repo = 'icymind/NeoSolarized'
-
-# monokai (colorscheme)
-repo = 'tomasr/molokai'
 
 # monokai
 repo = 'phanviet/vim-monokai-pro'

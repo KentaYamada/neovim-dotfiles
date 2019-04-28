@@ -11,7 +11,7 @@ let g:airline#extensions#tabline#enabled = 1
 
 " テーマの設定
 " See: https://github.com/vim-airline/vim-airline/wiki/Screenshots
-" let g:airline_theme = 'papercolor'
+let g:airline_theme = 'angr'
 
 " ale linterの表示
 let g:airline#extensions#ale#enabled = 1

@@ -26,6 +26,7 @@ hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
 #[[plugins]]
 #repo = 'dannyob/quickfixstatus'
 
+# ale: async linter
 [[plugins]]
 repo = 'w0rp/ale'
 
@@ -34,20 +35,19 @@ repo = 'w0rp/ale'
 repo = 'scrooloose/nerdtree'
 hook_add = 'source ~/.config/nvim/plugin/nerdtree.vim'
 
-# tagbar.vim
-[[plugins]]
-repo = 'majutsushi/tagbar'
-
 # vim-airline
 [[plugins]]
 repo = 'vim-airline/vim-airline'
-depends =['tagbar']
+# depends =['vim-airline-themes', 'tagbar']
 hook_add = 'source ~/.config/nvim/plugin/arline.rc.vim'
 
 # vim-airline-themes
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
-depends = ['vim-airline']
+
+# tagbar.vim
+[[plugins]]
+repo = 'majutsushi/tagbar'
 
 # solarized (colorscheme)
 repo = 'icymind/NeoSolarized'

@@ -39,7 +39,7 @@ hook_add = 'source ~/.config/nvim/plugin/nerdtree.vim'
 [[plugins]]
 repo = 'vim-airline/vim-airline'
 # depends =['vim-airline-themes', 'tagbar']
-hook_add = 'source ~/.config/nvim/plugin/arline.rc.vim'
+hook_add = 'source ~/.config/nvim/plugin/airline.rc.vim'
 
 # vim-airline-themes
 [[plugins]]

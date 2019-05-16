@@ -13,18 +13,14 @@ repo = 'Shougo/deoplete.nvim'
 hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
 
 # vimproc
-#[[plugins]]
-#repo = 'Shougo/vimproc'
-#build = 'make'
+[[plugins]]
+repo = 'Shougo/vimproc'
+build = 'make'
 
 # vim-quickrun
-#[[plugins]]
-#repo = 'thinca/vim-quickrun'
-#hook_add = 'source ~/.config/nvim/plugin/quickrun.vim'
-
-# quickfixstatus
-#[[plugins]]
-#repo = 'dannyob/quickfixstatus'
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+hook_add = 'source ~/.config/nvim/plugin/quickrun.rc.vim'
 
 # ale: async linter
 [[plugins]]

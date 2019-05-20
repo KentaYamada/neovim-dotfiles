@@ -15,6 +15,7 @@ hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
 # neosnippet.vim
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
+hook_add = 'source ~/.config/nvim/plugin/neosnippet.rc.vim'
 
 # neosnippet.snippets
 [[plugins]]

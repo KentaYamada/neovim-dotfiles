@@ -15,3 +15,4 @@ nmap <Space>d [denite]
 
 nnoremap <silent> [denite]f :<C-u> Denite file_rec<CR>
 nnoremap <silent> [denite]g :<C-u> Denite grep -mode=normal<CR>
+nnoremap <silent> [denite]b :<C-u> Denite buffer<CR>

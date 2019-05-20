@@ -12,6 +12,14 @@ hook_add = 'source ~/.config/nvim/plugin/denite.rc.vim'
 repo = 'Shougo/deoplete.nvim'
 hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
 
+# neosnippet.vim
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+
+# neosnippet.snippets
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
 # vimproc
 [[plugins]]
 repo = 'Shougo/vimproc'

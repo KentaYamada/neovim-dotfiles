@@ -20,6 +20,8 @@ if [ -e $GIT_COMP ]; then
     source $GIT_COMP
 fi
 
+# lessでNオプションを常に有効化
+export LESS="-N"
 
 # command alias
 alias vim='nvim'
@@ -29,16 +31,16 @@ alias mv='mv -i'
 alias sl='ln -s'
 alias usl='unlink'
 alias ~='cd ~'
-
+alias grep='grep --color'
 # todo: function
 case "${OSTYPE}" in
     darwin*)
-        alias ls='ls -lFG'
-        alias la='ls -alFG'
+        alias ls='ls -lhFG'
+        alias la='ls -alhFG'
         ;;
     linux*)
-        alias ls='ls -lF --color=auto'
-        alias la='ls -alF --color=auto'
+        alias ls='ls -lhF --color=auto'
+        alias la='ls -alhF --color=auto'
         ;;
 esac
 

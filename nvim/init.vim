@@ -93,3 +93,8 @@ augroup CakePhpCmd
     autocmd!
     autocmd BufNewFile,BufRead *.ctp setfiletype html
 augroup END
+
+augroup initVimCmd
+    autocmd!
+    autocmd BufWritePost init.vim source $MYVIMRC
+augroup END

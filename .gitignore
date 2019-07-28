@@ -1,5 +1,2 @@
-# Ingnore Mac OSX files
-.DS_Store
-
 # Ignore plugin directories
 nvim/dein/

@@ -21,7 +21,7 @@ if [ -e $GIT_COMP ]; then
 fi
 
 # lessでNオプションを常に有効化
-export LESS="-N"
+# export LESS="-N"
 
 # command alias
 alias vim='nvim'

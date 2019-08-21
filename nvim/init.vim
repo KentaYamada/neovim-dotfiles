@@ -98,3 +98,18 @@ augroup initVimCmd
     autocmd!
     autocmd BufWritePost init.vim source $MYVIMRC
 augroup END
+
+" project毎の設定読み込み
+augroup vimrc-local
+    autocmd!
+    autocmd BufNewFile,BufReadPost * call s:vimrc_local(expand('<afile>:p:h'))
+    autocmd BufReadPre .vimrc.local setfiletype=vim
+augroup END
+
+" .vimrc.localを探して読み込む
+function! s:vimrc_local(loc)
+    let files = findfile('.vimrc.local', escape(a:loc, ' ') . ';', -1)
+    for i in reverse(filter(files, 'filereadable(v:val)'))
+        source `=i`
+    endfor
+endfunction

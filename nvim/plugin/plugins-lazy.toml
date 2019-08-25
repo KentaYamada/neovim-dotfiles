@@ -13,24 +13,6 @@ depends = [
     'jedi-vim'
 ]
 
-# nvim-typescript
-# [[plugins]]
-# repo = 'mhartington/nvim-typescript'
-# on_ft  = 'typescript'
-# build = './install.sh'
-# hook_add = 'source ~/.config/nvim/plugin/nvim-typescript.vim'
-
-# typescript-vim
-[[plugins]]
-repo = 'leafgarland/typescript-vim'
-on_ft  = 'typescript'
-
-# phphcd.vim
-# [[plugins]]
-# repo = 'lvht/phpcd.vim'
-# on_ft = 'php'
-# build = './composer install'
-
 # vdebug
 [[plugins]]
 repo = 'vim-vdebug/vdebug'

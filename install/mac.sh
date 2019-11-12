@@ -21,7 +21,7 @@ brew list | grep python3
 # pip3
 brew install pip3
 pip3 -V
-pip3 install neovim
+pip3 install pynvim
 
 # nodebrew
 brew install nodebrew

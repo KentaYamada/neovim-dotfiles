@@ -45,7 +45,12 @@ repo = 'vim-airline/vim-airline-themes'
 repo = 'majutsushi/tagbar'
 
 # monokai
+[[plugins]]
 repo = 'phanviet/vim-monokai-pro'
+
+#gruvbox
+[[plugins]]
+repo = 'morhetz/gruvbox'
 
 # vim-fugitive
 [[plugins]]

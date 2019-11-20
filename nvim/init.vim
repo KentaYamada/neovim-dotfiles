@@ -29,7 +29,6 @@ set cmdheight=2
 set showmatch
 set helpheight=999
 set ruler
-set statusline=2
 let dic_line =  { 'dos': 'CRLF', 'unix': 'CR', 'mac': 'LF' }
 let f = &fileformat
 let s = has_key(dic_line, f) ? dic_line[f] : 'unkwown'

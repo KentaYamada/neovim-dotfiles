@@ -2,7 +2,8 @@
 noremap <C-e> :NERDTreeToggle<CR>
 
 " Ignore files.
-let NERDTreeIgnore = [
+let g:NERDTreeIgnore = [
+    \'\.git',
     \'\.pyc$',
     \'\.class$',
     \'\.pyc$',

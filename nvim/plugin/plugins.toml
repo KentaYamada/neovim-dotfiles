@@ -1,63 +1,55 @@
-# dein.nvim
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
-# denite.nvim
 [[plugins]]
-repo = 'Shougo/denite.nvim'
-hook_add = 'source ~/.config/nvim/plugin/denite.rc.vim'
+repo = 'ryanoasis/vim-devicons'
+hook_add = 'source ~/.config/nvim/plugin/devicons.rc.vim'
 
-# deoplete.nvim
-[[plugins]]
-repo = 'Shougo/deoplete.nvim'
-hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
-
-# neosnippet.vim
-[[plugins]]
-repo = 'Shougo/neosnippet.vim'
-hook_add = 'source ~/.config/nvim/plugin/neosnippet.rc.vim'
-
-# neosnippet.snippets
-[[plugins]]
-repo = 'Shougo/neosnippet-snippets'
-
-# ale: async linter
-[[plugins]]
-repo = 'w0rp/ale'
-
-# nerdtree
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 hook_add = 'source ~/.config/nvim/plugin/nerdtree.vim'
 
-# vim-airline
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+hook_add = 'source ~/.config/nvim/plugin/denite.rc.vim'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+hook_add = 'source ~/.config/nvim/plugin/neosnippet.rc.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'w0rp/ale'
+
+
+
 [[plugins]]
 repo = 'vim-airline/vim-airline'
-# depends =['vim-airline-themes', 'tagbar']
 hook_add = 'source ~/.config/nvim/plugin/airline.rc.vim'
 
-# vim-airline-themes
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
 
-# tagbar.vim
 [[plugins]]
 repo = 'majutsushi/tagbar'
 
-# monokai
 [[plugins]]
 repo = 'phanviet/vim-monokai-pro'
 
-#gruvbox
 [[plugins]]
 repo = 'morhetz/gruvbox'
 
-# vim-fugitive
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
 
-# quickrun
+[[plugins]]
 repo = 'thinca/vim-quickrun'

@@ -18,16 +18,8 @@ repo = 'Shougo/deoplete.nvim'
 hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
 
 [[plugins]]
-repo = 'Shougo/neosnippet.vim'
-hook_add = 'source ~/.config/nvim/plugin/neosnippet.rc.vim'
-
-[[plugins]]
-repo = 'Shougo/neosnippet-snippets'
-
-[[plugins]]
 repo = 'w0rp/ale'
-
-
+hook_add = 'source ~/.config/nvim/plugin/ale.rc.vim'
 
 [[plugins]]
 repo = 'vim-airline/vim-airline'
@@ -35,9 +27,6 @@ hook_add = 'source ~/.config/nvim/plugin/airline.rc.vim'
 
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
-
-[[plugins]]
-repo = 'majutsushi/tagbar'
 
 [[plugins]]
 repo = 'phanviet/vim-monokai-pro'
@@ -53,3 +42,8 @@ repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
 repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'autozimu/LanguageClient-neovim'
+rev = 'next'
+build = 'bash install.sh'

@@ -31,5 +31,6 @@ if dein#check_install()
     call dein#install()
 endif
 
+set hidden
 filetype plugin indent on
 syntax enable

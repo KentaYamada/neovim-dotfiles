@@ -14,17 +14,25 @@ if !exists('g:LanguageClient_serverCommands')
     let g:LanguageClient_serverCommands = {}
 endif
 
+" c/c++ lsp
+if executable('clangd')
+    let g:LanguageClient_serverCommands['c'] = ['/usr/local/opt/llvm/bin/clangd']
+    let g:LanguageClient_serverCommands['cpp'] = ['/usr/local/opt/llvm/bin/clangd']
+endif
+
 " python lsp
 if executable('pyls')
     let g:LanguageClient_serverCommands['python'] = ['/usr/local/bin/pyls']
 endif
 
+let g:LanguageClient_autoStart = 1
+
 "--------------
 " Key mappings
 "--------------
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
-" jump to definition
+" 定義元へjump
 nnoremap <C-]> :call LanguageClient#textDocument_definition()<CR>
-" go back
+" 呼び出し先へ戻る
 nnoremap <C-T> <C-O>
 nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>

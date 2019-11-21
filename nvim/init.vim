@@ -60,8 +60,13 @@ colorscheme gruvbox
 
 syntax on
 
-" === key mappings ===
+"--------------
+" Key mappings
+"--------------
+" ESC連打でハイライトリセット
 nnoremap <silent><ESC><ESC> :noh<CR>
+" .vimrc(init.vim)を開く
+nmap ,v :edit $MYVIMRC<CR>
 
 " タブ操作
 nnoremap tnw :<C-u>tabnew<CR>

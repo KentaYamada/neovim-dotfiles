@@ -40,6 +40,9 @@ endif
 
 " vim起動時にplugin起動
 let g:LanguageClient_autoStart = 1
+" linter機能を使うか
+" Note: ALEを使う
+let g:LanguageClient_diagnosticsEnable = 0
 
 "--------------
 " Key mappings

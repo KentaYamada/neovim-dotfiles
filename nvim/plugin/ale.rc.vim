@@ -10,7 +10,7 @@
 " デフォルトはALEリポジトリのREADME.md参照
 let g:ale_linters = {
     \ 'php': ['php'],
-    \ 'python': ['flake8'],
+    \ 'python': ['pyls'],
     \ 'c': ['gcc', 'clang'],
     \ 'cpp': ['gcc', 'clang']
 \ }

@@ -12,7 +12,8 @@ let g:ale_linters = {
     \ 'php': ['php'],
     \ 'python': ['pyls'],
     \ 'c': ['gcc', 'clang'],
-    \ 'cpp': ['gcc', 'clang']
+    \ 'cpp': ['gcc', 'clang'],
+    \ 'typescript': ['tslint']
 \ }
 
 " ファイルオープン時にチェックが走らないようにする

@@ -16,6 +16,11 @@ let g:ale_linters = {
     \ 'typescript': ['tslint']
 \ }
 
+" linter無効にする設定
+let g:ale_linters_ignore = {
+    \ 'typescript': ['tsserver']
+\ }
+
 " ファイルオープン時にチェックが走らないようにする
 let g:ale_lint_on_enter = 0
 

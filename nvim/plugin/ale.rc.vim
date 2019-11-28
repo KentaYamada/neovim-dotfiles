@@ -18,6 +18,7 @@ let g:ale_linters = {
 
 " linter無効にする設定
 let g:ale_linters_ignore = {
+    \ 'html': ['tidy'],
     \ 'typescript': ['tsserver']
 \ }
 

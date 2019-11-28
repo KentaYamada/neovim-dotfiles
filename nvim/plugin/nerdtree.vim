@@ -8,7 +8,8 @@ let g:NERDTreeIgnore = [
     \'\.class$',
     \'\.pyc$',
     \'\.egg-info[[dir]]',
-    \'__pycache__[[dir]]'
+    \'__pycache__[[dir]]',
+    \ 'node_modules'
 \]
 
 " Show hidden file

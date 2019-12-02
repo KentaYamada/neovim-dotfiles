@@ -29,7 +29,9 @@ brew install nodebrew
 brew list | grep nodebrew
 
 # javascript/typescript language server
-npm i -g javascript-typescript-langserver -g
+npm i -g javascript-typescript-langserver
+# php language server
+npm i -g intelephense
 
 # universal-ctags
 brew uninstall ctags

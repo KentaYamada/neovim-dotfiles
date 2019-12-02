@@ -38,6 +38,12 @@ if executable('javascript-typescript-langserver')
     let g:LanguageClient_rootMarkers['typescript'] = ['tsconfig.json']
 endif
 
+" php
+if executable('intelephense')
+    let g:LanguageClient_serverCommands['php'] = ['intelephense', '--stdio']
+endif
+
+
 " vim起動時にplugin起動
 let g:LanguageClient_autoStart = 1
 " linter機能を使うか

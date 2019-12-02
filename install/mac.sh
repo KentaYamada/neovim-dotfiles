@@ -22,10 +22,14 @@ brew list | grep python3
 brew install pip3
 pip3 -V
 pip3 install pynvim
+pip3 install python-language-server
 
 # nodebrew
 brew install nodebrew
 brew list | grep nodebrew
+
+# javascript/typescript language server
+npm i -g javascript-typescript-langserver -g
 
 # universal-ctags
 brew uninstall ctags

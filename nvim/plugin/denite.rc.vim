@@ -15,6 +15,7 @@ nmap <Space>d [denite]
 nnoremap <silent> [denite]f :<C-u> Denite file/rec<CR>
 nnoremap <silent> [denite]g :<C-u> Denite grep<CR>
 nnoremap <silent> [denite]b :<C-u> Denite buffer<CR>
+nnoremap <silent> [denite]m :<C-u> Denite file_mru<CR>
 
 autocmd FileType denite call s:denite_my_settings()
 function! s:denite_my_settings() abort

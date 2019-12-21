@@ -10,9 +10,6 @@ repo = 'Shougo/deoplete.nvim'
 hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
 
 [[plugins]]
-repo = 'ryanoasis/nerd-fonts'
-
-[[plugins]]
 repo = 'ryanoasis/vim-devicons'
 hook_add = 'source ~/.config/nvim/plugin/devicons.rc.vim'
 

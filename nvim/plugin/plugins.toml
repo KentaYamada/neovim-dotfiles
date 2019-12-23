@@ -35,6 +35,9 @@ repo = 'phanviet/vim-monokai-pro'
 repo = 'morhetz/gruvbox'
 
 [[plugins]]
+repo = 'tomasiser/vim-code-dark'
+
+[[plugins]]
 repo = 'tpope/vim-fugitive'
 
 [[plugins]]

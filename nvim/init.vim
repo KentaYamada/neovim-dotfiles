@@ -56,7 +56,8 @@ source $HOME/.config/nvim/plugin/dein.rc.vim
 " == color scheme ===
 set termguicolors
 set background=dark
-colorscheme gruvbox
+" colorscheme gruvbox
+colorscheme codedark
 
 syntax on
 

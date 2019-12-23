@@ -25,7 +25,8 @@ let g:airline#extensions#tabline#tab_nr_type = 1
 " See: https://github.com/vim-airline/vim-airline/wiki/Screenshots
 "------------------------------------------------------------------
 " colorscheme "gruvbox" を使う
-let g:airline_theme = 'gruvbox'
+" let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'codedark'
 " ale linterの表示
 let g:airline#extensions#ale#enabled = 1
 " ricty powerline fontを使う

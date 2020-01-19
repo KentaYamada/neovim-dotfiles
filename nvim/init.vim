@@ -29,6 +29,11 @@ set cmdheight=2
 set showmatch
 set helpheight=999
 set ruler
+
+" buffer split option
+set splitright
+set splitbelow
+
 let dic_line =  { 'dos': 'CRLF', 'unix': 'CR', 'mac': 'LF' }
 let f = &fileformat
 let s = has_key(dic_line, f) ? dic_line[f] : 'unkwown'

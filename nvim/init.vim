@@ -31,7 +31,6 @@ set helpheight=999
 set ruler
 
 " buffer split option
-set splitright
 set splitbelow
 
 let dic_line =  { 'dos': 'CRLF', 'unix': 'CR', 'mac': 'LF' }
@@ -79,6 +78,10 @@ nnoremap tnw :<C-u>tabnew<CR>
 nnoremap tc :<C-u>tabclose<CR>
 nnoremap tn gt
 nnoremap tp gT
+
+if executable('gitup')
+    nnoremap <silent> <Space>gu :!gitup<CR>
+endif
 
 " === terminal mode ===
 " ESCでターミナルモードからノーマルモードへ

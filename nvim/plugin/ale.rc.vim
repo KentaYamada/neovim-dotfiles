@@ -13,7 +13,12 @@ let g:ale_linters = {
     \ 'python': ['pyls'],
     \ 'c': ['gcc', 'clang'],
     \ 'cpp': ['gcc', 'clang'],
-    \ 'typescript': ['tslint']
+    \ 'typescript': ['eslint', 'tslint']
+\ }
+
+" ファイルタイプ別fixer設定
+let g:ale_fixer = {
+    \ 'typescript': ['prettier', 'eslint']
 \ }
 
 " linter無効にする設定

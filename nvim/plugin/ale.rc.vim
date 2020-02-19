@@ -17,8 +17,8 @@ let g:ale_linters = {
 \ }
 
 " ファイルタイプ別fixer設定
-let g:ale_fixer = {
-    \ 'typescript': ['prettier', 'eslint']
+let g:ale_fixers = {
+    \ 'typescript': ['prettier', 'eslint', 'tslint']
 \ }
 
 " linter無効にする設定
@@ -34,6 +34,9 @@ let g:ale_lint_on_enter = 0
 let g:ale_lint_on_text_changed = 0
 let g:ale_lint_on_insert_leave = 0
 let g:ale_lint_on_save = 1
+
+" 保存時にフォーマッタ実行
+let g:ale_fix_on_save = 1
 
 " エラー数と警告数をステータスラインに表示
 let g:lightline = {

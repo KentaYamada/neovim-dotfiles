@@ -33,6 +33,10 @@ set ruler
 " buffer split option
 set splitbelow
 
+" spell checking
+set spell
+set spelllang=en,cjk
+
 let dic_line =  { 'dos': 'CRLF', 'unix': 'CR', 'mac': 'LF' }
 let f = &fileformat
 let s = has_key(dic_line, f) ? dic_line[f] : 'unkwown'

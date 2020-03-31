@@ -65,7 +65,8 @@ source $HOME/.config/nvim/plugin/dein.rc.vim
 set termguicolors
 set background=dark
 " colorscheme gruvbox
-colorscheme codedark
+" colorscheme codedark
+colorscheme NeoSolarized
 
 syntax on
 

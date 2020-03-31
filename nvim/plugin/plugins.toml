@@ -38,6 +38,9 @@ repo = 'morhetz/gruvbox'
 repo = 'tomasiser/vim-code-dark'
 
 [[plugins]]
+repo = 'iCyMind/NeoSolarized'
+
+[[plugins]]
 repo = 'tpope/vim-fugitive'
 
 [[plugins]]

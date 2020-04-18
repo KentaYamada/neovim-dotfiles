@@ -4,6 +4,12 @@
 " Repo: https://github.com/KentaYamada/neovim-dotfiles
 "
 
+"===========
+" Variables
+"===========
+" Enable python3
+let g:python3_host_prog = expand('/usr/local/bin/python3')
+
 "=================
 " Display options
 "=================
@@ -82,13 +88,6 @@ set splitbelow
 set spell
 set spelllang=en,cjk
 
-let dic_line =  { 'dos': 'CRLF', 'unix': 'CR', 'mac': 'LF' }
-let f = &fileformat
-let s = has_key(dic_line, f) ? dic_line[f] : 'unkwown'
-set statusline=%t\ %m%r%h%w[%Y][%{&fenc}][%{s}]%=%c,%l%11p%%
-
-" enable python3
-let g:python3_host_prog = expand('/usr/local/bin/python3')
 
 set clipboard=unnamed,unnamedplus
 set mouse=a

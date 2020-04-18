@@ -26,9 +26,9 @@ nnoremap tp gT
 tnoremap <ESC> <C-\><C-n>
 
 
-" ========
+"=========
 " Plugins
-" ========
+"=========
 
 " GitUp(for Mac)
 if has('mac') && executable('gitup')

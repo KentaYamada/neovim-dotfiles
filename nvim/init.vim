@@ -4,13 +4,6 @@
 " Repo: https://github.com/KentaYamada/neovim-dotfiles
 "
 
-" == color scheme ===
-set termguicolors
-set background=dark
-" colorscheme gruvbox
-" colorscheme codedark
-colorscheme NeoSolarized
-
 "==============
 " Basic config
 "==============
@@ -31,3 +24,8 @@ source $HOME/.config/nvim/config/triggers.rc.vim
 "================
 source $HOME/.config/nvim/plugin/dein.rc.vim
 syntax on
+
+"==============
+" Color scheme
+"==============
+source $HOME/.config/nvim/config/color.rc.vim

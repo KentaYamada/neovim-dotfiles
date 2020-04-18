@@ -58,8 +58,6 @@ set shellslash
 set wildmenu wildmode=list:longest,full
 set history=50
 
-" === dein.vim ===
-source $HOME/.config/nvim/plugin/dein.rc.vim
 
 " == color scheme ===
 set termguicolors
@@ -68,39 +66,19 @@ set background=dark
 " colorscheme codedark
 colorscheme NeoSolarized
 
-syntax on
 
-"--------------
+"==============
 " Key mappings
-"--------------
-" ESC連打でハイライトリセット
-nnoremap <silent><ESC><ESC> :noh<CR>
-" .vimrc(init.vim)を開く
-nmap ,v :edit $MYVIMRC<CR>
-
-" タブ操作
-nnoremap tnw :<C-u>tabnew<CR>
-nnoremap tc :<C-u>tabclose<CR>
-nnoremap tn gt
-nnoremap tp gT
-
-if executable('gitup')
-    nnoremap <silent> <Space>gu :!gitup<CR>
-endif
-
-" === terminal mode ===
-" ESCでターミナルモードからノーマルモードへ
-tnoremap <ESC> <C-\><C-n>
-
-" ctagsのキーマップ
-if executable('ctags')
-    "set tags=./.git/tags,./tags
-    set tags=tags
-    " 複数候補が選択できるようにする
-    nnoremap <C-]> g<C-]>
-endif
+"==============
+source $HOME/.config/nvim/config/mappings.rc.vim
 
 "===============
 " Auto commands
 "===============
-source ~/.config/nvim/config/auto_cmd.rc.vim
+source $HOME/.config/nvim/config/auto_cmd.rc.vim
+
+"================
+" Plugin manager
+"================
+source $HOME/.config/nvim/plugin/dein.rc.vim
+syntax on

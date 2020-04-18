@@ -24,7 +24,7 @@ source $HOME/.config/nvim/config/mappings.rc.vim
 "===============
 " Auto commands
 "===============
-source $HOME/.config/nvim/config/auto_cmd.rc.vim
+source $HOME/.config/nvim/config/triggers.rc.vim
 
 "================
 " Plugin manager

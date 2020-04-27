@@ -41,6 +41,9 @@ repo = 'tomasiser/vim-code-dark'
 repo = 'iCyMind/NeoSolarized'
 
 [[plugins]]
+repo = 'cocopon/iceberg.vim'
+
+[[plugins]]
 repo = 'tpope/vim-fugitive'
 
 [[plugins]]

@@ -5,4 +5,5 @@
 "
 set termguicolors
 set background=dark
-colorscheme NeoSolarized
+" colorscheme NeoSolarized
+colorscheme iceberg

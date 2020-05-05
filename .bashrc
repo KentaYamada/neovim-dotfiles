@@ -22,6 +22,7 @@ fi
 
 # command alias
 alias vim='nvim'
+alias vi='vim'
 alias ..='cd ../'
 alias cp='cp -i'
 alias mv='mv -i'

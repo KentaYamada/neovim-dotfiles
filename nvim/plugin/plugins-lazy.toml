@@ -13,13 +13,6 @@ depends = [
     'jedi-vim'
 ]
 
-# vdebug
-[[plugins]]
-repo = 'vim-vdebug/vdebug'
-on_ft  = 'php'
-hook_add = 'source ~/.config/nvim/plugin/vdebug.rc.vim'
-
 # emmet-vim
 repo = 'mattn/emmet-vim'
 on_ft  = 'html'
-# hook_add = 'source ~/.config/nvim/plugin/vdebug.rc.vim'

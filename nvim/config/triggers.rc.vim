@@ -44,3 +44,11 @@ augroup cakePhpCmd
     autocmd!
     autocmd BufNewFile,BufRead *.ctp setfiletype php
 augroup END
+
+"=====
+" toml
+"=====
+augroup tomlCmd
+    autocmd!
+    autocmd BufNewFile,BufRead *.toml setfiletype conf
+augroup END

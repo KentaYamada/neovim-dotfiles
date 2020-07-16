@@ -75,9 +75,9 @@ set shiftwidth=4
 set noundofile
 set ambiwidth=double
 set backspace=indent,eol,start
-set encoding=UTF-8
+set encoding=utf-8
 set fileencoding=utf-8
-set fileencodings+=utf-8,euc-jp,cp932,iso-2022-jp
+set fileencodings=utf-8,euc-jp,cp932,iso-2022-jp
 
 
 

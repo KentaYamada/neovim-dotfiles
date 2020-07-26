@@ -18,3 +18,4 @@ on_ft  = 'html'
 
 [[plugins]]
 repo = 'delphinus/vim-firestore'
+on_ft  = 'firestore'

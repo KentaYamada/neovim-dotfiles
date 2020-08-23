@@ -8,7 +8,8 @@
 " Variables
 "===========
 " Enable python3
-let g:python3_host_prog = expand('/usr/local/bin/python3')
+let g:python3_host_prog = system('echo -n $(which python3)')
+
 
 "=================
 " Display options

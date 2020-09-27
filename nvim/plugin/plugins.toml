@@ -18,7 +18,7 @@ repo = 'scrooloose/nerdtree'
 hook_add = 'source ~/.config/nvim/plugin/nerdtree.vim'
 
 [[plugins]]
-repo = 'w0rp/ale'
+repo = 'dense-analysis/ale'
 hook_add = 'source ~/.config/nvim/plugin/ale.rc.vim'
 
 [[plugins]]

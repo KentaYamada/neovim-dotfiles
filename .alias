@@ -46,3 +46,8 @@ alias gst='git status --short --branch'
 alias gcp='git cherry-pick'
 alias greflesh='git fetch origin && git remote prune origin'
 alias gullr='git pull --rebase'
+alias gpu='git push --set-upstream'
+
+if [[ -s "${HOME}/.alias.local" ]]; then
+    source "${HOME}/.alias.local"
+fi

@@ -17,6 +17,7 @@ alias mv='mv -i'
 alias mkdir='mkdir -pv'
 alias grep='grep --color=auto'
 alias reboot='sudo reboot'
+alias shutdown='sudo shutdown -h now'
 
 case "${OSTYPE}" in
 darwin*)

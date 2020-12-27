@@ -31,7 +31,7 @@ endif
 
 " javascript/typescript lsp
 if executable('javascript-typescript-langserver')
-    let g:LanguageClient_serverCommands['javascript'] = ['javascript-typescript-stduo']
+    let g:LanguageClient_serverCommands['javascript'] = ['javascript-typescript-stdio']
     let g:LanguageClient_serverCommands['typescript'] = ['javascript-typescript-stdio']
     " todo: 必要になったらコメント解除
     " let g:LanguageClient_rootMarkers['javascript'] = ['jsconfig.json']

@@ -20,6 +20,11 @@ source $HOME/.config/nvim/config/mappings.rc.vim
 source $HOME/.config/nvim/config/triggers.rc.vim
 
 "================
+" Custom commands
+"================
+source $HOME/.config/nvim/config/commands.rc.vim
+
+"================
 " Plugin manager
 "================
 source $HOME/.config/nvim/plugin/dein.rc.vim

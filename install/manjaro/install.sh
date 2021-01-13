@@ -5,24 +5,41 @@
 # Created: 2020.08.26
 #
 
-
-# update mirror
+# --------------
+# General Setup
+# --------------
+# Update mirror
 sudo pacman-mirrors --fasttrack
 
-# upgrade packages
+# Upgrade packages
 sudo pacman -Syyu
 
-# install japanese input method
+# Remove orphans packages
+sudo pacman -Rs $(pacman -Qdtq)
+
+# Install Japanese input method
 sudo pacman -S fcitx-im fcitx-mozc
 
-# install editor
-sudo pacman -S neovim
-
-# rename home directories name tool
+# Rename home directories name tool
 sudo pacman -S xdg-user-dirs-gtk
 
-# open dialog
+# Open dialog
 LANG=C xdg-user-dirs-gtk-update
 
-# enable trim strage
+# Enable trim strage
 sudo systemctl enable fstrim.timer
+
+# Upgrade pip
+sudo pip3 install -U pip
+
+# -------------
+# Setup NeoVim
+# -------------
+sudo pacman -S neovim
+sudo pip3 install pynvim
+
+# ------------------------------
+# Setup C/C++ development tools
+# ------------------------------
+sudo pacman -S llvm
+sudo pacman -S clang

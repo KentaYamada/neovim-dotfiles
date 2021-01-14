@@ -102,4 +102,3 @@ set shellslash
 
 set wildmenu wildmode=list:longest,full
 set history=50
-

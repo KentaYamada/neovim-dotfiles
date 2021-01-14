@@ -44,11 +44,3 @@ augroup tomlCmd
     autocmd!
     autocmd BufNewFile,BufRead *.toml setfiletype conf
 augroup END
-
-" .vimrc.localを探して読み込む
-function! s:vimrc_local(loc)
-    let files = findfile('.vimrc.local', escape(a:loc, ' ') . ';', -1)
-    for i in reverse(filter(files, 'filereadable(v:val)'))
-        source `=i`
-    endfor
-endfunction

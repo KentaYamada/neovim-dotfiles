@@ -20,13 +20,15 @@ endif
 
 " c/c++ lsp
 if executable('clangd')
-    let g:LanguageClient_serverCommands['c'] = ['/usr/local/opt/llvm/bin/clangd']
-    let g:LanguageClient_serverCommands['cpp'] = ['/usr/local/opt/llvm/bin/clangd']
+    let s:clangd_dir = system('echo -n $(which clangd)')
+    let g:LanguageClient_serverCommands['c'] = [s:clangd_dir]
+    let g:LanguageClient_serverCommands['cpp'] = [s:clangd_dir]
 endif
 
 " python lsp
 if executable('pyls')
-    let g:LanguageClient_serverCommands['python'] = ['/usr/local/bin/pyls']
+    let s:pyls_dir = system('echo -n $(which pyls)')
+    let g:LanguageClient_serverCommands['python'] = [s:pyls_dir]
 endif
 
 " javascript/typescript lsp

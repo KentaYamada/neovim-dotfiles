@@ -12,15 +12,6 @@ augroup initVimCmd
     autocmd BufWritePost init.vim source $MYVIMRC
 augroup END
 
-"=============
-" local vimrc
-"=============
-augroup localVimrcCmd
-    autocmd!
-    autocmd BufNewFile,BufReadPost * call s:vimrc_local(expand('<afile>:p:h'))
-    autocmd BufReadPre .vimrc.local setfiletype=vim
-augroup END
-
 "============
 " TypeScript
 "============

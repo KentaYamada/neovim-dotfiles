@@ -44,3 +44,9 @@ function! s:vimrc_local(loc)
         source `=i`
     endfor
 endfunction
+
+augroup localVimrcCmd
+    autocmd!
+    autocmd BufNewFile,BufReadPost * call s:vimrc_local(expand('<afile>:p:h'))
+    autocmd BufReadPre .vimrc.local setfiletype=vim
+augroup END

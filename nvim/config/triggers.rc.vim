@@ -35,3 +35,20 @@ augroup tomlCmd
     autocmd!
     autocmd BufNewFile,BufRead *.toml setfiletype conf
 augroup END
+
+"================
+" template files
+"================
+augroup templates
+    autocmd!
+    autocmd BufNewFile *.vue 0r $HOME/.config/nvim/templates/skeleton.vue
+augroup END
+
+"=============
+" local vimrc
+"=============
+augroup localVimrcCmd
+    autocmd!
+    autocmd BufNewFile,BufReadPost * call s:vimrc_local(expand('<afile>:p:h'))
+    autocmd BufReadPre .vimrc.local setfiletype=vim
+augroup END

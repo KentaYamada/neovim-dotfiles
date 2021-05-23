@@ -32,13 +32,13 @@ source $HOME/.config/nvim/config/commands.rc.vim
 "================
 " Plugin manager
 "================
-" source $HOME/.config/nvim/plugin/dein.rc.vim
-" syntax on
+source $HOME/.config/nvim/plugin/dein.rc.vim
 
 "==============
 " Color scheme
 "==============
 " source $HOME/.config/nvim/config/color.rc.vim
+syntax on
 
 "================================
 " Load .vimrc.local if file exist

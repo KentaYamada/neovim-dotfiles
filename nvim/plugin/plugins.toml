@@ -1,4 +1,6 @@
+#----------------
 # Plugin manager
+#----------------
 [[plugins]]
 repo = 'Shougo/denite.nvim'
 hook_add = 'source ~/.config/nvim/plugin/denite.rc.vim'
@@ -9,10 +11,15 @@ hook_add = 'source ~/.config/nvim/plugin/denite.rc.vim'
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
+#-------------------
 # Statusline plugin
+#-------------------
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.config/nvim/plugin/lightline.rc.vim'
+
+[[plugins]]
+repo = 'sainnhe/sonokai'
 
 # [[plugins]]
 # repo = 'Shougo/neomru.vim'

@@ -37,7 +37,7 @@ source $HOME/.config/nvim/plugin/dein.rc.vim
 "==============
 " Color scheme
 "==============
-" source $HOME/.config/nvim/config/color.rc.vim
+source $HOME/.config/nvim/config/color.rc.vim
 syntax on
 
 "================================

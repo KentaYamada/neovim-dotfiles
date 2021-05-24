@@ -41,10 +41,6 @@ repo = 'sainnhe/sonokai'
 # hook_add = 'source ~/.config/nvim/plugin/devicons.rc.vim'
 # 
 # [[plugins]]
-# repo = 'scrooloose/nerdtree'
-# hook_add = 'source ~/.config/nvim/plugin/nerdtree.vim'
-# 
-# [[plugins]]
 # repo = 'dense-analysis/ale'
 # hook_add = 'source ~/.config/nvim/plugin/ale.rc.vim'
 # [[plugins]]

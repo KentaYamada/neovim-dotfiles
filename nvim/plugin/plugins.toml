@@ -6,24 +6,32 @@ repo = 'Shougo/denite.nvim'
 hook_add = 'source ~/.config/nvim/plugin/denite.rc.vim'
 
 #-------------
-# Git plugins
+# Development
 #-------------
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
-#-------------------
-# Statusline plugin
-#-------------------
+[[plugins]]
+repo = 'junegunn/fzf'
+merged = 0
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+depends = ['fzf']
+
+#-------
+# Other
+#-------
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.config/nvim/plugin/lightline.rc.vim'
 
+#--------------
+# Color scheme
+#--------------
 [[plugins]]
 repo = 'sainnhe/sonokai'
 
-# [[plugins]]
-# repo = 'Shougo/neomru.vim'
-# 
 # [[plugins]]
 # repo = 'Shougo/deoplete.nvim'
 # hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'

@@ -16,6 +16,10 @@ depends = ['fzf']
 # Other
 #-------
 [[plugins]]
+repo = 'ryanoasis/vim-devicons'
+hook_add = 'source ~/.config/nvim/plugin/devicons.rc.vim'
+
+[[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.config/nvim/plugin/lightline.rc.vim'
 
@@ -29,9 +33,6 @@ repo = 'sainnhe/sonokai'
 # repo = 'Shougo/deoplete.nvim'
 # hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
 # 
-# [[plugins]]
-# repo = 'ryanoasis/vim-devicons'
-# hook_add = 'source ~/.config/nvim/plugin/devicons.rc.vim'
 # 
 # [[plugins]]
 # repo = 'dense-analysis/ale'

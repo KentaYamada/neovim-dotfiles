@@ -10,7 +10,7 @@
 
 " Key mappings
 " File search
-nnoremap <C-f> :Files<CR>
+nnoremap <C-f> :GFiles<CR>
 
 " ripgrepを使ってgrepする
 function! RipgrepFzf(query, fullscreen)

@@ -4,5 +4,4 @@
 " Repo: https://github.com/KentaYamada/neovim-dotfiles
 "
 set termguicolors
-set background=dark
-colorscheme one
+colorscheme sonokai

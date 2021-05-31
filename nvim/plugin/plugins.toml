@@ -1,66 +1,58 @@
+#-------------
+# Development
+#-------------
 [[plugins]]
-repo = 'Shougo/denite.nvim'
-hook_add = 'source ~/.config/nvim/plugin/denite.rc.vim'
+repo = 'tpope/vim-fugitive'
 
 [[plugins]]
-repo = 'Shougo/neomru.vim'
+repo = 'junegunn/fzf'
+merged = 0
 
 [[plugins]]
-repo = 'Shougo/deoplete.nvim'
-hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
+repo = 'junegunn/fzf.vim'
+depends = ['fzf']
 
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+merged = 0
+rev = 'release'
+#-------
+# Other
+#-------
 [[plugins]]
 repo = 'ryanoasis/vim-devicons'
 hook_add = 'source ~/.config/nvim/plugin/devicons.rc.vim'
 
 [[plugins]]
-repo = 'scrooloose/nerdtree'
-hook_add = 'source ~/.config/nvim/plugin/nerdtree.vim'
+repo = 'itchyny/lightline.vim'
+hook_add = 'source ~/.config/nvim/plugin/lightline.rc.vim'
 
+#--------------
+# Color scheme
+#--------------
 [[plugins]]
-repo = 'dense-analysis/ale'
-hook_add = 'source ~/.config/nvim/plugin/ale.rc.vim'
+repo = 'sainnhe/sonokai'
 
-[[plugins]]
-repo = 'vim-airline/vim-airline'
-hook_add = 'source ~/.config/nvim/plugin/airline.rc.vim'
-
-[[plugins]]
-repo = 'vim-airline/vim-airline-themes'
-
-[[plugins]]
-repo = 'phanviet/vim-monokai-pro'
-
-[[plugins]]
-repo = 'morhetz/gruvbox'
-
-[[plugins]]
-repo = 'tomasiser/vim-code-dark'
-
-[[plugins]]
-repo = 'iCyMind/NeoSolarized'
-
-[[plugins]]
-repo = 'cocopon/iceberg.vim'
-
-[[plugins]]
-repo = 'tpope/vim-fugitive'
-
-[[plugins]]
-repo = 'airblade/vim-gitgutter'
-
-[[plugins]]
-repo = 'thinca/vim-quickrun'
-hook_add = 'source ~/.config/nvim/plugin/quickrun.rc.vim'
-
-[[plugins]]
-repo = 'Shougo/vimproc.vim'
-build = 'make'
-
-[[plugins]]
-repo = 'autozimu/LanguageClient-neovim'
-rev = 'next'
-build = 'bash install.sh'
-
-[[plugins]]
-repo = 'rakr/vim-one'
+# [[plugins]]
+# repo = 'Shougo/deoplete.nvim'
+# hook_add = 'source ~/.config/nvim/plugin/deoplete.nvim.vim'
+# 
+# 
+# [[plugins]]
+# repo = 'dense-analysis/ale'
+# hook_add = 'source ~/.config/nvim/plugin/ale.rc.vim'
+# [[plugins]]
+# repo = 'airblade/vim-gitgutter'
+# 
+# [[plugins]]
+# repo = 'thinca/vim-quickrun'
+# hook_add = 'source ~/.config/nvim/plugin/quickrun.rc.vim'
+# 
+# [[plugins]]
+# repo = 'Shougo/vimproc.vim'
+# build = 'make'
+# 
+# [[plugins]]
+# repo = 'autozimu/LanguageClient-neovim'
+# rev = 'next'
+# build = 'bash install.sh'

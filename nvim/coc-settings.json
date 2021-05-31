@@ -1,0 +1,8 @@
+{
+    "eslint.autoFixOnSave": true,
+    "eslint.probe": [
+        "javascript",
+        "typescript"
+    ],
+    "tsserver.enable": true
+}

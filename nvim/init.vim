@@ -4,6 +4,11 @@
 " Repo: https://github.com/KentaYamada/neovim-dotfiles
 "
 
+"===========
+" Variables
+"===========
+source $HOME/.config/nvim/config/variables.rc.vim
+
 "==============
 " Basic config
 "==============
@@ -28,12 +33,18 @@ source $HOME/.config/nvim/config/commands.rc.vim
 " Plugin manager
 "================
 source $HOME/.config/nvim/plugin/dein.rc.vim
-syntax on
 
 "==============
 " Color scheme
 "==============
 source $HOME/.config/nvim/config/color.rc.vim
+
+"=============================
+" netrw config (File explore)
+"=============================
+source $HOME/.config/nvim/plugin/netrw.rc.vim
+
+syntax on
 
 "================================
 " Load .vimrc.local if file exist

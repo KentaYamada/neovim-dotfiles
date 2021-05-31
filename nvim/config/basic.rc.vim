@@ -39,8 +39,15 @@ set listchars=tab:>-,trail:-,nbsp:%
 " 画面最下部のメッセージ表示行数
 set cmdheight=2
 " ステータスラインの表示(0: never, 1: more than two windows, 2: always)
-" todo: airlineなどのプラグインを使うのであれば不要？
 set laststatus=2
+" ins-completion-menuを表示しない
+set shortmess+=c
+" 目印桁の表示
+if has('nvim-0.5.0') || has('patch-8.1.1564')
+    set signcolumn=number
+else
+    set signcolumn=yes
+endif
 
 "==============
 " File options
@@ -55,6 +62,7 @@ set fileencoding=utf-8
 set fileencodings=utf-8,euc-jp,cp932,iso-2022-jp
 " バックアップファイルを作らない
 set nobackup
+set nowritebackup
 " スワップファイルを作らない
 set noswapfile
 " 保存されていないファイルがある時に保存の確認をする
@@ -111,6 +119,8 @@ set mouse=
 set splitbelow
 " Help画面の行数
 set helpheight=999
+" 更新時間
+set updatetime=300
 
 "===============
 " Other options

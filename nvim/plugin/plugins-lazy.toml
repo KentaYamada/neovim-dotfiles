@@ -11,11 +11,11 @@
 #     'jedi-vim'
 # ]
 # 
-# [[plugins]]
-# repo = 'mattn/emmet-vim'
-# on_ft  = 'html'
-# 
-# 
-# [[plugins]]
-# repo = 'delphinus/vim-firestore'
-# on_ft  = 'firestore'
+[[plugins]]
+repo = 'mattn/emmet-vim'
+on_ft  = 'html'
+
+
+[[plugins]]
+repo = 'delphinus/vim-firestore'
+on_ft  = 'firestore'

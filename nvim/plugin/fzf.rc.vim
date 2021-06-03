@@ -8,6 +8,9 @@
 " :help fzf
 "==============================
 
+" Variables
+let g:fzf_layout = {'down': '~40%'}
+
 " Key mappings
 " File search
 nnoremap <C-f> :GFiles<CR>

@@ -8,6 +8,9 @@
 " https://vim-jp.org/vimdoc-ja/pi_netrw.html
 " ===========================================
 
+let g:loaded_netrwPlugin = 1
+finish
+
 " netrwの表示スタイルをツリー形式にする
 let g:netrw_liststyle = 3
 " ヘッダを非表示

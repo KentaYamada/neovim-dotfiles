@@ -24,6 +24,10 @@ repo = 'ryanoasis/vim-devicons'
 hook_add = 'source ~/.config/nvim/plugin/devicons.rc.vim'
 
 [[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = 'source ~/.config/nvim/plugin/nerdtree.rc.vim'
+
+[[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.config/nvim/plugin/lightline.rc.vim'
 

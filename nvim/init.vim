@@ -42,7 +42,7 @@ source $HOME/.config/nvim/config/color.rc.vim
 "=============================
 " netrw config (File explore)
 "=============================
-source $HOME/.config/nvim/plugin/netrw.rc.vim
+" source $HOME/.config/nvim/plugin/netrw.rc.vim
 
 syntax on
 

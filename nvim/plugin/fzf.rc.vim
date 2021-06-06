@@ -14,6 +14,8 @@ let g:fzf_layout = {'down': '~40%'}
 " Key mappings
 " File search
 nnoremap <C-f> :GFiles<CR>
+nnoremap <C-b> :Buffers<CR>
+nnoremap <C-h> :History<CR>
 
 " ripgrepを使ってgrepする
 function! RipgrepFzf(query, fullscreen)

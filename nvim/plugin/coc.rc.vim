@@ -78,6 +78,8 @@ augroup mygroup
   autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
   " Update signature help on jump placeholder.
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
+  " Use @ keyword for scss
+  autocmd FileType scss setl iskeyword+=@-@
 augroup end
 
 " Applying codeAction to the selected region.

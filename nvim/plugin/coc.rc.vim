@@ -9,7 +9,7 @@
 " https://github.com/neoclide/coc.nvim
 "======================================
 
-let g:coc_global_extensions = ['coc-json', 'coc-eslint', 'coc-prettier', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-css', 'coc-json', 'coc-eslint', 'coc-prettier', 'coc-tsserver']
 
 " Key mappings
 " Use tab for trigger completion with characters ahead and navigate.

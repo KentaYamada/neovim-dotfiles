@@ -1,9 +1,11 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript"],
+    "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "python"],
     "eslint.autoFixOnSave": true,
     "eslint.probe": [
         "javascript",
         "typescript"
     ],
-    "tsserver.enable": true
+    "tsserver.enable": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black"
 }

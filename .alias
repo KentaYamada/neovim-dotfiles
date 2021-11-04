@@ -49,6 +49,10 @@ alias greflesh='git fetch origin && git remote prune origin'
 alias gullr='git pull --rebase'
 alias gpu='git push --set-upstream'
 
+# zsh prezto
+alias update-prezto='cd $ZPREZTODIR && git pull && git submodule sync --recursive && git submodule update --init --recursive'
+
+# load local alias
 if [[ -s "${HOME}/.alias.local" ]]; then
     source "${HOME}/.alias.local"
 fi

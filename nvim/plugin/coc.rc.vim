@@ -19,6 +19,9 @@ let g:coc_global_extensions = [
     \ 'coc-clangd'
 \ ]
 
+" disable trasparent cursor line
+let g:coc_disable_transparent_cursor = 1
+
 " Key mappings
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by

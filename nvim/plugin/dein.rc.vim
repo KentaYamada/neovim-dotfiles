@@ -31,6 +31,10 @@ if dein#check_install()
     call dein#install()
 endif
 
+" Key map
+" Dein update
+nnoremap <space>du :call dein#update() <CR>
+
 set hidden
 filetype plugin indent on
 syntax enable

@@ -3,6 +3,7 @@
 # Manjaro Linux setup script
 # Auther: Kenta Yamada
 # Created: 2020.08.26
+# Updated: 2021.12.29
 #
 
 # --------------
@@ -22,6 +23,12 @@ sudo pacman -S fcitx-im fcitx-mozc
 
 # Rename home directories name tool
 sudo pacman -S xdg-user-dirs-gtk
+
+# Install firewall config tool
+sudo pacman -S firewalld
+
+# Enable firewalld service
+sudo systemctl enable firewalld.service
 
 # Open dialog
 LANG=C xdg-user-dirs-gtk-update

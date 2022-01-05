@@ -29,5 +29,5 @@ endfunction
 command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
 
 if executable('rg')
-    nnoremap <C-g> :Rg<CR>
+    nnoremap <leader>g :RG<CR>
 endif

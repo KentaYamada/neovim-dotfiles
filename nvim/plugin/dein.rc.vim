@@ -33,7 +33,7 @@ endif
 
 " Key map
 " Dein update
-nnoremap <space>du :call dein#update() <CR>
+nnoremap <leader>du :call dein#update() <CR>
 
 set hidden
 filetype plugin indent on

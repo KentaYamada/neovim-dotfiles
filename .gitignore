@@ -1,2 +1,5 @@
 # Ignore plugin directories
 nvim/dein/
+
+# ignore local ide scripts
+.tmux/*.ide.sh

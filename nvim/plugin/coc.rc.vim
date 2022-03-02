@@ -16,7 +16,8 @@ let g:coc_global_extensions = [
     \ 'coc-prettier',
     \ 'coc-tsserver',
     \ 'coc-pyright',
-    \ 'coc-clangd'
+    \ 'coc-clangd',
+    \ 'coc-go',
 \ ]
 
 " disable trasparent cursor line
@@ -160,3 +161,8 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+augroup CocCommands
+    autocmd!
+    autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')
+augroup END

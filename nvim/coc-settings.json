@@ -1,5 +1,11 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "python"],
+    "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "python", "go"],
+    "languageserver": {
+        "golang": {
+            "command": "gopls",
+            "filetypes": ["go"]
+        }
+    },
     "eslint.autoFixOnSave": true,
     "eslint.probe": [
         "javascript",

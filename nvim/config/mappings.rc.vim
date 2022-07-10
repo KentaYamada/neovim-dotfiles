@@ -26,6 +26,16 @@ nnoremap tp gT
 tnoremap <ESC> <C-\><C-n>
 
 
+" ======================================
+" 矢印無効化
+" Todo: キー操作に慣れたらマッピング解除
+" ======================================
+" ======================================
+nnoremap <Up> <Nop>
+nnoremap <Down> <Nop>
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
+
 "=========
 " Plugins
 "=========
